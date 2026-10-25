@@ -1,0 +1,10 @@
+Hangman game
+
+1. Choose a random word.
+2. Show one blank for each letter in the word.
+3. Ask the player to guess a letter or the whole word.
+4. If the letter is in the word, show the correct letters.
+5. If the letter is wrong, add 1 penalty.
+6. If the whole word is wrong, add 5 penalties.
+7. If the penalties go over 12, the player loses.
+8. Continue until the player guesses the word or loses.
