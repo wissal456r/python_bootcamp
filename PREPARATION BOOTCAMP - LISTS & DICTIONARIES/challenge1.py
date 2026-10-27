@@ -1,16 +1,12 @@
 import random
 import time
 
-numbers = [random.randint(0, 1000000) for _ in range(1000000)]
+start = time.time()
 
-start_time = time.time()
+numbers = [random.randint(1, 1000000) for i in range(1000000)]
+
 numbers.sort()
-end_time = time.time()
 
-print("First 10 numbers:", numbers[:10])
-print("Last 10 numbers:", numbers[-10:])
-print(
-    "Numbers sorted:",
-    all(numbers[i] <= numbers[i + 1] for i in range(len(numbers) - 1))
-)
-print("Time taken:", round(end_time - start_time, 4), "seconds")
+print("First 10:", numbers[:10])
+print("Last 10:", numbers[-10:])
+print("Time:", time.time() - start)
