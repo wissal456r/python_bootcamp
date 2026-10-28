@@ -3,4 +3,7 @@ pokemons = {
     "Bulbasaur": "Grass",
     "Charmander": "Fire"
 }
-print(pokemons["Pikachu"])
+
+pokemons["Blaziken"] = "Fire"
+
+print(pokemons)
