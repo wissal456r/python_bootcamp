@@ -1,9 +1,8 @@
 pokemons = {
     "Pikachu": "Electric",
     "Bulbasaur": "Grass",
-    "Charmander": "Fire"
+    "Charmander": "Fire",
+    "Blaziken": "Fire"
 }
-
-pokemons["Blaziken"] = "Fire"
 
 print(pokemons)
